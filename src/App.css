@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+#NavBarPC a {
+  color: white;
+}
+
+
+.art_bg {
+  z-index: 1;
+  width: 100%;
+  /* border: 3px yellow solid; */
+}
+
+.art_bg img {
+  width: 100%;
+}
+
+.art_bg:hover {
+  opacity: 0.8;
+}
+
+
+#art_bg_1 {
+  position: fixed;
+  width: 34%;
+  left: -4%;
+  bottom: 1%;
+}
+
+#art_bg_2 {
+  position: fixed;
+  width: 40%;
+  bottom: -1px;
+  right: 0px;
+}
+
+#content {
+  width: 100%;
+  text-align: center;
+}
+
+#latest-tweets {
+  width: 350px;
+  z-index: 22;
+  margin: auto;
+  /* border: 3px solid white; */
+}
+
+.art_caption {
+  position: fixed;
+  bottom: 0;
+  color: white;
+}
+.art_caption a{
+  color: yellow;
+}
+
+#art_caption1 {
+  left: 2%;
+}
+
+#art_caption2 {
+  right: 3%;
+}
