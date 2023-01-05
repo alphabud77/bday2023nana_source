@@ -1,8 +1,12 @@
+import { useTranslation } from "react-i18next";
+
 const LatestTweets = () => {
+
+    const { t } = useTranslation()
 
     return <div id="latest-tweets">
         <h1>
-            Latest 3 Tweets:
+            {t('latest3')} Tweets:
         </h1>
         <a class="twitter-timeline" href="https://twitter.com/nanahoshinana77" data-tweet-limit="3" data-width="549"
             data-theme="dark"
